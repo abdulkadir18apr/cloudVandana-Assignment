@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+  }
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    box-shadow: 1px 1px 2px 2px olive;
+    padding-bottom: 1rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .row {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 10px;
+  }
+  .feild {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: black;
+  }
+  input[type="reset"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: black;
+  }
+  input,
+  select {
+    padding: 5px;
+    width: 200px;
+  }
+  .feild-checkbox {
+    display: flex;
+    text-align: right;
+    width: 20%;
+  }
+  .popup {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid olive;
+    display: none;
+  }
+  .closeBtn {
+    position: relative;
+    bottom: 80px;
+    left: 200px;
+    background-color: #fff;
+    border: none;
+    color: red;
+    font-weight: 800;
+  }
+  
