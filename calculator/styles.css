@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    background-color: #f4f4f4;
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-container {
+    margin: 0px;
+  }
+  .btn {
+    margin: -2px;
+  
+    width: 70px;
+    height: 40px;
+    border: none;
+    color: white;
+    padding: 1rem;
+    background-color: black;
+  }
+  .row .btn:last-of-type {
+    background-color: gray;
+  }
+  .screen-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .screen {
+    width: 98%;
+    height: 30px;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  .screen-container .btn {
+    background-color: skyblue;
+    height: unset;
+    width: 90px;
+  }
+  
